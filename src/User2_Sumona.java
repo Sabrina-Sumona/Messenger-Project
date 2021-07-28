@@ -20,7 +20,8 @@ public class User2_Sumona extends JFrame {
         this.pack();
 
         socket = new Socket(InetAddress.getByName("localhost"), 25000);
-        // socket = new Socket(InetAddress.getByName("127.0.0.1"), 25000);
+        // we can write the IP address of local host 
+        // socket = new Socket(InetAddress.getAddress("127.0.0.1"), 25000);
 
         button2.addActionListener(actionEvent -> {
             try
