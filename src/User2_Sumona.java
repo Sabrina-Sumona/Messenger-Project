@@ -20,6 +20,7 @@ public class User2_Sumona extends JFrame {
         this.pack();
 
         socket = new Socket(InetAddress.getByName("localhost"), 25000);
+        // socket = new Socket(InetAddress.getByName("127.0.0.1"), 25000);
 
         button2.addActionListener(actionEvent -> {
             try
